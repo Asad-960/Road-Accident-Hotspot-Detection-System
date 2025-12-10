@@ -1,0 +1,84 @@
+############################
+# .NET / ASP.NET Core
+############################
+
+# Build results
+bin/
+obj/
+out/
+
+# Visual Studio files
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ASP.NET Core logs
+logs/
+*.log
+
+# Publish output
+publish/
+wwwroot/dist/
+wwwroot/build/
+
+# Sensitive config
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.json
+secrets.json
+
+# User secrets location (global)
+**/Properties/launchSettings.json
+
+############################
+# React Frontend (Node)
+############################
+
+# Node modules
+**/node_modules/
+
+# Build outputs
+**/build/
+**/dist/
+
+# Runtime data
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Coverage reports
+coverage/
+
+# Environment variables (VERY IMPORTANT)
+*.env
+*.env.local
+*.env.development
+*.env.test
+*.env.production
+
+############################
+# OS Files
+############################
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+############################
+# IDE / Editor
+############################
+
+# Rider
+.idea/
+
+# Others
+*.swp
+*.swo
+*.tmp
